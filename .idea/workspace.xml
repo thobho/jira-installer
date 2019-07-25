@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79429148-4244-4b61-adbf-17b37f4c0b2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thobho/jirainstaller/DefaultInstallStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thobho/jirainstaller/JiraInstallStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thobho/jirainstaller/JiraInstallStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/deviniti/jirainstaller2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thobho/jirainstaller/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thobho/jirainstaller/DefaultInstallStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
@@ -63,6 +59,15 @@
                 <element signature="e#226#227#0" expanded="true" />
                 <element signature="e#267#268#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -107,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thobho/jirainstaller/InstallStrategy8Point2ToLatest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thobho/jirainstaller/JiraInstallStrategyFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thobho/jirainstaller/DefaultInstallStrategy.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -233,7 +239,7 @@
       <workItem from="1564057410160" duration="107000" />
       <workItem from="1564057553048" duration="1752000" />
       <workItem from="1564059563226" duration="3802000" />
-      <workItem from="1564077337554" duration="2699000" />
+      <workItem from="1564077337554" duration="2792000" />
     </task>
     <task id="LOCAL-00001" summary="add target">
       <created>1564060139144</created>
@@ -263,17 +269,24 @@
       <option name="project" value="LOCAL" />
       <updated>1564062796242</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="improve code to work with all jiras">
+      <created>1564080057310</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564080057310</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9413000" />
+    <option name="totallyTimeSpent" value="9506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2628205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2628205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Designer" order="3" />
@@ -291,7 +304,7 @@
       <window_info anchor="bottom" id="SonarLint" order="9" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3310962" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3310962" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -352,7 +365,8 @@
     <MESSAGE value="add full packaging" />
     <MESSAGE value="fix in command" />
     <MESSAGE value="modify install" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify install" />
+    <MESSAGE value="improve code to work with all jiras" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve code to work with all jiras" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/expectj/expectj/2.0.7/expectj-2.0.7.jar!/expectj/Spawn.class">
@@ -426,6 +440,13 @@
             <element signature="e#226#227#0" expanded="true" />
             <element signature="e#267#268#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
