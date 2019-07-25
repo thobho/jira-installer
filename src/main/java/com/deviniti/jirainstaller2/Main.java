@@ -16,10 +16,10 @@ public class Main {
         shell.send("o \n");
         shell.expect("Express Install");
         shell.send("1 \n");
-        shell.expect("Where should JIRA Software be installed?");
-        shell.send(jiraInstallDirectory + "\n");
-        shell.expect("Default location for JIRA Software data");
-        shell.send(jiraHome + "\n");
+//        shell.expect("Where should JIRA Software be installed?");
+//        shell.send(jiraInstallDirectory + "\n");
+//        shell.expect("Default location for JIRA Software data");
+//        shell.send(jiraHome + "\n");
         shell.expect("Install as service");
         shell.send("i \n");
     }
