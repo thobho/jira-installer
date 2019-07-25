@@ -20,7 +20,7 @@ public class Main {
         shell.send(jiraInstallDirectory + "\n");
         shell.expect("Default location for JIRA Software data");
         shell.send(jiraHome + "\n");
-        shell.expect("Install as service: No");
+        shell.expect("Install as service");
         shell.send("i \n");
     }
 }
